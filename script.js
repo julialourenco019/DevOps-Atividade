@@ -1,4 +1,4 @@
-   // 1. Mostra data e hora atual no footer
+
     const dateLabel = document.querySelector('footer .label:last-child');
     function updateClock() {
       const now = new Date();
@@ -8,7 +8,7 @@
     updateClock();
     setInterval(updateClock, 1000);
 
-    // 2. Efeito de digitação na frase DevOps
+ 
     const quote = document.querySelector('.quote-block blockquote');
     const fullText = quote.textContent.trim();
     quote.textContent = '';

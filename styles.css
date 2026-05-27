@@ -4,7 +4,7 @@
       --bg: #f5f4f0;
       --ink: #1a1a18;
       --muted: #6b6b65;
-      --accent: #2d5be3;
+      --accent: #e32dce;
       --rule: #d6d4cc;
       --card: #ffffff;
     }
@@ -33,7 +33,7 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* ── Header ── */
+  
     header {
       border-top: 2px solid var(--ink);
       padding-top: 1.5rem;
@@ -59,7 +59,7 @@
       color: var(--accent);
     }
 
-    /* ── Students card ── */
+    
     .card {
       background: var(--card);
       border: 1px solid var(--rule);
@@ -101,7 +101,7 @@
       flex-shrink: 0;
     }
 
-    /* ── Course tag ── */
+    
     .course-row {
       display: flex;
       align-items: center;
@@ -125,7 +125,7 @@
 
     .tag svg { flex-shrink: 0; }
 
-    /* ── Quote ── */
+    
     .quote-block {
       border-left: 3px solid var(--accent);
       padding: 1.2rem 1.4rem;
@@ -153,7 +153,7 @@
       font-style: normal;
     }
 
-    /* ── Tech icon ── */
+    
     .icon-section {
       display: flex;
       align-items: center;
@@ -196,7 +196,7 @@
       margin-bottom: 0.2rem;
     }
 
-    /* ── Footer ── */
+    
     footer {
       display: flex;
       justify-content: space-between;
